@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".SignupScreen">
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="380dp"
+        android:background="@drawable/boader"
+        android:layout_height="38dp"
+        android:hint="Enter Email here!"
+        android:gravity="center"
+        android:layout_marginTop="4dp"
+        android:inputType="textEmailAddress"
+        android:layout_marginBottom="40dp"
+        android:textColorHint="@color/white"
+
+        android:textStyle="bold"
+        android:textColor="@color/white"
+
+        />
+    <EditText
+        android:layout_width="380dp"
+        android:id="@+id/password"
+        android:layout_height="38dp"
+        android:hint="Enter Password"
+        android:background="@drawable/boader"
+        android:layout_marginBottom="40dp"
+        android:inputType="textPassword"
+        android:gravity="center"
+        android:textColorHint="@color/white"
+
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        />
+    <EditText
+        android:id="@+id/confirmpassword"
+        android:layout_width="380dp"
+        android:background="@drawable/boader"
+        android:layout_height="38dp"
+        android:hint="Confirm Password"
+        android:gravity="center"
+        android:inputType="textPassword"
+        android:textColorHint="@color/white"
+
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:background="@drawable/boder"
+        android:layout_height="wrap_content"
+        android:text="Sign UP"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_margin="100dp"
+        />
+</LinearLayout>
